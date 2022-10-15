@@ -1,17 +1,49 @@
 
-
 body {
   background-color: #23252C;
   display: flex;
+  justify-content: center;
 }
 
 .Card {
   background-color: #1A1B21;
   display: flex;
   flex-direction: column;
+  width: 400px;
 }
 
 .Button {
   background-color: white;
+  width: 50%;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px;
+}
 
+.btn-sect {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Info {
+  text-align: center;
+}
+
+.Info > h1 {
+  color: white;
+}
+.Info > h3 {
+  color: #F3BF99;
+}
+.Info > h4 {
+  color: #F5F5F5;
+}
+
+.Info > * {
+  margin: 5px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
 }
