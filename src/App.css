@@ -47,3 +47,16 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+
+.about-interests {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.about-interests > h1 {
+  color: #F5F5F5;
+}
+.about-interests > p {
+  color: #DCDCDC;
+}
